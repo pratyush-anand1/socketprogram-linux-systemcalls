@@ -1,0 +1,7 @@
+Race1 and Race2 files are basically two programs who have to face a race condition to either open or create the output.txt file so therefore output is unpredictable.
+The process according to thier priority are given CPU it can even face race condition for writing or opening on a file so even in that case they have unpredictable output
+To run 2 Programs simultaneously in  Linux we create a script run.sh and run both in multiproccessing environment in linux
+To counter this race condition we need Atomicity
+Atomicity is a condition in which the code is written in such a way that code cannot be run by other procees/thread 'AT THE SAME TIME' while it is being executed/run by first process/thread.All system calls in linux are executed atomically.
+Process is an instance of an executing or running program.
+Source code is first converted into an object file using COMPILER and ASSEMBLER and then is linked with libraries to form an executable file with the help of a LINKER(COFF/ELF) and loaded into the memory using a LOADER.
